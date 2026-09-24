@@ -1,0 +1,1296 @@
+{
+  "medios": ["Quiosco", "PCM_UE", "PCM_TCN", "ABC_UE", "ABC_TCN"],
+  "medio_label": {
+    "Quiosco": "Quiosco",
+    "PCM_UE": "PCM UE",
+    "PCM_TCN": "PCM TCN",
+    "ABC_UE": "ABC UE",
+    "ABC_TCN": "ABC TCN"
+  },
+  "valores_fijos": {
+    "Llegadas": {
+      "puestos": {
+        "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+        "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+        "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+        "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+        "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+      },
+      "areas": {
+        "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+        "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+        "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+        "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+        "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+      }
+    },
+    "Salidas": {
+      "puestos": {
+        "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+        "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+        "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+        "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+        "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+      },
+      "areas": {
+        "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+        "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+        "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+        "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+        "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+      }
+    }
+  },
+  "valores_fijos_transitorio": {
+    "Llegadas": {
+      "puestos": {
+        "Quiosco": { "ADRM10": 36, "ADRM12": 29 },
+        "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+        "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+        "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+        "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+      },
+      "areas": {
+        "Quiosco": { "ADRM10": 273.52, "ADRM12": 203.71 },
+        "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+        "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+        "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+        "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+      }
+    },
+    "Salidas": {
+      "puestos": {
+        "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+        "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+        "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+        "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+        "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+      },
+      "areas": {
+        "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+        "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+        "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+        "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+        "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+      }
+    }
+  },
+  "sensibilidad": {
+    "f_TCN": {
+      "label": "f_TCN (Proporción de TCN)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 17, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 2 },
+            "PCM_TCN": { "ADRM10": 22, "ADRM12": 17 },
+            "ABC_UE": { "ADRM10": 14, "ADRM12": 11 },
+            "ABC_TCN": { "ADRM10": 7, "ADRM12": 6 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 29, "ADRM12": 23 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 36, "ADRM12": 29 },
+            "ABC_UE": { "ADRM10": 7, "ADRM12": 5 },
+            "ABC_TCN": { "ADRM10": 11, "ADRM12": 9 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 205.14, "ADRM12": 155.08 },
+            "PCM_UE": { "ADRM10": 35.82, "ADRM12": 48.0 },
+            "PCM_TCN": { "ADRM10": 139.2, "ADRM12": 102.0 },
+            "ABC_UE": { "ADRM10": 322.36, "ADRM12": 240.0 },
+            "ABC_TCN": { "ADRM10": 153.86, "ADRM12": 130.91 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 341.9, "ADRM12": 254.77 },
+            "PCM_UE": { "ADRM10": 16.28, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 232.0, "ADRM12": 174.0 },
+            "ABC_UE": { "ADRM10": 146.53, "ADRM12": 109.09 },
+            "ABC_TCN": { "ADRM10": 256.43, "ADRM12": 196.36 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 13, "ADRM12": 11 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 2 },
+            "PCM_TCN": { "ADRM10": 6, "ADRM12": 5 },
+            "ABC_UE": { "ADRM10": 14, "ADRM12": 11 },
+            "ABC_TCN": { "ADRM10": 7, "ADRM12": 6 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 22, "ADRM12": 18 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_UE": { "ADRM10": 7, "ADRM12": 5 },
+            "ABC_TCN": { "ADRM10": 11, "ADRM12": 9 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 201.67, "ADRM12": 158.4 },
+            "PCM_UE": { "ADRM10": 35.21, "ADRM12": 43.64 },
+            "PCM_TCN": { "ADRM10": 136.85, "ADRM12": 109.09 },
+            "ABC_UE": { "ADRM10": 316.92, "ADRM12": 240.0 },
+            "ABC_TCN": { "ADRM10": 151.26, "ADRM12": 130.91 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 336.12, "ADRM12": 259.2 },
+            "PCM_UE": { "ADRM10": 16.01, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 228.08, "ADRM12": 174.55 },
+            "ABC_UE": { "ADRM10": 144.05, "ADRM12": 109.09 },
+            "ABC_TCN": { "ADRM10": 252.09, "ADRM12": 196.36 }
+          }
+        }
+      }
+    },
+    "f_quiosco": {
+      "label": "f_quiosco (Uso de Quiosco por TCN)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 20, "ADRM12": 16 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 33, "ADRM12": 27 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 8, "ADRM12": 6 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 30, "ADRM12": 24 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 20, "ADRM12": 16 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 12, "ADRM12": 9 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 234.45, "ADRM12": 177.23 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 214.91, "ADRM12": 162.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 175.83, "ADRM12": 130.91 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 351.67, "ADRM12": 265.85 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 126.99, "ADRM12": 96.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 263.75, "ADRM12": 196.36 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 15, "ADRM12": 12 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 9, "ADRM12": 8 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 8, "ADRM12": 6 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 18 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 6, "ADRM12": 5 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 11, "ADRM12": 9 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 230.49, "ADRM12": 172.8 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 211.28, "ADRM12": 174.55 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 172.86, "ADRM12": 130.91 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 345.73, "ADRM12": 259.2 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 124.85, "ADRM12": 109.09 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 259.3, "ADRM12": 196.36 }
+          }
+        }
+      }
+    },
+    "f_ABC_TCN": {
+      "label": "f_ABC_TCN (Uso de ABC por TCN con quiosco)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 35, "ADRM12": 28 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 7, "ADRM12": 6 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 23, "ADRM12": 18 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 11, "ADRM12": 9 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 226.63, "ADRM12": 168.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 164.11, "ADRM12": 130.91 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 144.57, "ADRM12": 108.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 246.17, "ADRM12": 196.36 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 7, "ADRM12": 6 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 6, "ADRM12": 5 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 11, "ADRM12": 9 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 222.8, "ADRM12": 174.55 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 161.34, "ADRM12": 130.91 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 142.13, "ADRM12": 109.09 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 242.01, "ADRM12": 196.36 }
+          }
+        }
+      }
+    },
+    "f_ABC_UE": {
+      "label": "f_ABC_UE (Uso de ABC por pasajeros UE)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 2 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 9, "ADRM12": 7 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 11, "ADRM12": 9 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 52.1, "ADRM12": 48.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 208.4, "ADRM12": 152.73 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 13.02, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 247.47, "ADRM12": 196.36 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 3, "ADRM12": 2 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 9, "ADRM12": 7 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 11, "ADRM12": 9 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 51.22, "ADRM12": 43.64 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 204.88, "ADRM12": 152.73 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 12.8, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 243.29, "ADRM12": 196.36 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          }
+        }
+      }
+    },
+    "MQT": {
+      "label": "MQT (Tiempo Máximo de Cola)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 15, "ADRM12": 15 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 18, "ADRM12": 18 },
+            "ABC_UE": { "ADRM10": 7, "ADRM12": 7 },
+            "ABC_TCN": { "ADRM10": 6, "ADRM12": 6 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 468.49, "ADRM12": 498.46 },
+            "PCM_UE": { "ADRM10": 44.62, "ADRM12": 72.0 },
+            "PCM_TCN": { "ADRM10": 317.9, "ADRM12": 324.0 },
+            "ABC_UE": { "ADRM10": 401.56, "ADRM12": 458.18 },
+            "ABC_TCN": { "ADRM10": 351.36, "ADRM12": 392.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 13, "ADRM12": 12 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 6, "ADRM12": 6 },
+            "ABC_UE": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_TCN": { "ADRM10": 7, "ADRM12": 6 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 387.07, "ADRM12": 345.6 },
+            "PCM_UE": { "ADRM10": 36.86, "ADRM12": 43.64 },
+            "PCM_TCN": { "ADRM10": 262.65, "ADRM12": 261.82 },
+            "ABC_UE": { "ADRM10": 331.77, "ADRM12": 305.45 },
+            "ABC_TCN": { "ADRM10": 290.3, "ADRM12": 261.82 }
+          }
+        }
+      }
+    },
+    "PK": {
+      "label": "PK (Factor de Pico)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 21, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 26, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 9, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 8, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 26, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 32, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 11, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 10, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 243.13, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 23.16, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 164.98, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 208.4, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 182.35, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 303.91, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 28.94, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 206.23, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 260.5, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 227.93, "ADRM12": 152.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 16, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 7, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 9, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 8, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 20, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 9, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 11, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 10, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 239.02, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 22.76, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 162.19, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 204.88, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 179.27, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 298.78, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 28.45, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 202.74, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 256.09, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 224.08, "ADRM12": 152.73 }
+          }
+        }
+      }
+    },
+    "PT_R": {
+      "label": "PT_R (Tiempo de Registro en Quiosco)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 21, "ADRM12": 17 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 26, "ADRM12": 21 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 211.03 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.0 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          }
+        }
+      }
+    },
+    "PT_V": {
+      "label": "PT_V (Tiempo de Verificación en Quiosco)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 29, "ADRM12": 23 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 205.71 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 204.44 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 11, "ADRM12": 9 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 24, "ADRM12": 20 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 216.0 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 205.71 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          }
+        }
+      }
+    },
+    "PT_PCM_UE": {
+      "label": "PT_PCM_UE (Tiempo de Control PCM UE)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 2 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 36.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 36.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 2 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 48.0 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 26.18 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          }
+        }
+      }
+    },
+    "PT_PCM_TCN": {
+      "label": "PT_PCM_TCN (Tiempo de Control PCM TCN)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 19, "ADRM12": 16 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 38, "ADRM12": 31 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 144.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 139.5 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 4, "ADRM12": 3 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 12, "ADRM12": 10 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 144.0 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 144.0 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          }
+        }
+      }
+    },
+    "PT_ABC_UE": {
+      "label": "PT_ABC_UE (Tiempo de Control ABC UE)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 5, "ADRM12": 4 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 15, "ADRM12": 12 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 192.0 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 172.8 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 5, "ADRM12": 4 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 15, "ADRM12": 12 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 192.0 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 172.8 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          }
+        }
+      }
+    },
+    "PT_ABC_TCN": {
+      "label": "PT_ABC_TCN (Tiempo de Control ABC TCN)",
+      "Llegadas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 4, "ADRM12": 4 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 23, "ADRM12": 19 },
+            "PCM_UE": { "ADRM10": 1, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 29, "ADRM12": 23 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 14, "ADRM12": 11 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 192.0 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 273.52, "ADRM12": 210.46 },
+            "PCM_UE": { "ADRM10": 26.05, "ADRM12": 24.0 },
+            "PCM_TCN": { "ADRM10": 185.6, "ADRM12": 138.0 },
+            "ABC_UE": { "ADRM10": 234.45, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 205.14, "ADRM12": 158.4 }
+          }
+        }
+      },
+      "Salidas": {
+        "puestos": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 4, "ADRM12": 4 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 9, "ADRM12": 7 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 18, "ADRM12": 14 },
+            "PCM_UE": { "ADRM10": 2, "ADRM12": 1 },
+            "PCM_TCN": { "ADRM10": 8, "ADRM12": 7 },
+            "ABC_UE": { "ADRM10": 10, "ADRM12": 8 },
+            "ABC_TCN": { "ADRM10": 13, "ADRM12": 11 }
+          }
+        },
+        "areas": {
+          "Bajo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 192.0 }
+          },
+          "Fijo": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 152.73 }
+          },
+          "Alto": {
+            "Quiosco": { "ADRM10": 268.9, "ADRM12": 201.6 },
+            "PCM_UE": { "ADRM10": 25.61, "ADRM12": 21.82 },
+            "PCM_TCN": { "ADRM10": 182.47, "ADRM12": 152.73 },
+            "ABC_UE": { "ADRM10": 230.49, "ADRM12": 174.55 },
+            "ABC_TCN": { "ADRM10": 201.67, "ADRM12": 158.4 }
+          }
+        }
+      }
+    }
+  },
+  "parametros_orden": [
+    "f_TCN",
+    "f_quiosco",
+    "f_ABC_TCN",
+    "f_ABC_UE",
+    "MQT",
+    "PK",
+    "PT_R",
+    "PT_V",
+    "PT_PCM_UE",
+    "PT_PCM_TCN",
+    "PT_ABC_UE",
+    "PT_ABC_TCN"
+  ],
+  "parametros_label": {
+    "f_TCN": "f_TCN (Proporción de TCN)",
+    "f_quiosco": "f_quiosco (Uso de Quiosco por TCN)",
+    "f_ABC_TCN": "f_ABC_TCN (Uso de ABC por TCN con quiosco)",
+    "f_ABC_UE": "f_ABC_UE (Uso de ABC por pasajeros UE)",
+    "MQT": "MQT (Tiempo Máximo de Cola)",
+    "PK": "PK (Factor de Pico)",
+    "PT_R": "PT_R (Tiempo de Registro en Quiosco)",
+    "PT_V": "PT_V (Tiempo de Verificación en Quiosco)",
+    "PT_PCM_UE": "PT_PCM_UE (Tiempo de Control PCM UE)",
+    "PT_PCM_TCN": "PT_PCM_TCN (Tiempo de Control PCM TCN)",
+    "PT_ABC_UE": "PT_ABC_UE (Tiempo de Control ABC UE)",
+    "PT_ABC_TCN": "PT_ABC_TCN (Tiempo de Control ABC TCN)"
+  }
+}
